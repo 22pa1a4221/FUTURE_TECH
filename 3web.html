@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('https://lh4.googleusercontent.com/DYRejRo_uF_9LM9sw2Guq2wKKCTiEYAB8F2-zCt8JzsUfmYu0Tjh-dnJ9vgRtL1_bjCS6BCTSmKIvMR87gAxiQ9SJavi_U3ntciVKbiVQj-TeoBalRsajB40Uvbe7Qix-Q=w1280'); /* Updated background image URL */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .animated-text {
+            font-size: 24px;
+            text-align: center;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        .feeding-animation {
+            animation: slideInText 2s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInText {
+            0% {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Thank you</h1>
+    <div class="animated-text">for <span class="feeding-animation">feeding the need</span></div>
+</body>
+</html>

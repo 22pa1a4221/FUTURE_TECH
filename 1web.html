@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            background-image: url('https://wallpaperaccess.com/full/1737995.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0;
+            margin: 0;
+        }
+
+        .center-image {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .container {
+            height: 7vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .btn-container {
+            margin-top: 20px;
+            color: blue;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 1000px; /* Set the button width */
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-image">
+        <img src="C:\Users\dv990\Downloads\var1.jpg.png" width="800" height="600" alt="Centered Image">
+    </div>
+    <div class="container">
+        <div class="btn-container">
+            <button onclick="redirectToUrl()">DONATE</button>
+            <a href="file:///C:/Users/dv990/OneDrive/Desktop/2web.html">Link to Form</a>
+        </div>
+    </div>
+    <script>
+        function redirectToUrl() {
+            window.location.href = "file:///C:/Users/dv990/OneDrive/Desktop/2web.html";
+        }
+    </script>
+</body>
+</html>
